@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 
@@ -24,19 +24,46 @@
     -->
 <!-- <script  src="js/index.js"></script> -->
 <h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">Description</p>
+<p id="description">This is a form description</p>
 <form id="survey-form">
   <label id="name-label">Name</label>
   <input type="text" id="name" name="name" placeholder="name" required>
+  <br>
   <label id="email-label">Email</label>
   <input type="email" id="email" name="email" placeholder="email" required>
+  <br>
   <label id="number-label">Number</label>
   <input type="number" name="number" min="0" max="100" required placeholder="number">
+  <br>
+  <label id="select-label">Select Options</label>
   <select name="select" id="dropdown ">
     <option value="first">First Option</option>
     <option value="second">Second Option</option>
   </select>
-  <button>send</button>
+  <br>
+  <label>Would you recommend freeCodeCamp to a friend?</label>
+  <br>
+  <input type="radio" name="Definitely">Definitely
+  <br>
+  <input type="radio" name="Maybe">Maybe
+  <br>
+  <input type="radio" name="Not Sure">Not Sure
+  <br>
+  <label>What would you like to see improved? (Check all that apply)</label>
+  <br>
+  <input type="checkbox" name="Front-end Projects">Front-end Projects
+  <br>
+  <input type="checkbox" name="Back-end Projects">Back-end Projects
+  <br>
+  <input type="checkbox" name="Data Visualization">Data Visualization
+  <br>
+  <input type="checkbox" name="Challenges">Challenges
+  <br>
+  <input type="checkbox" name="Open Source Community">Open Source Community
+  <br>
+  <label>Additional Comments</label>
+  <input type="textarea" name="additional_comment">
+  <button type="submit" id="submit">send</button>
 </form>
 </body>
 
